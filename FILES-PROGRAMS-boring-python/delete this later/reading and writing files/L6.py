@@ -1,0 +1,8 @@
+print(open("hello.txt").read())
+a=open("hello.txt","w")
+a.write(" dnekdebdk")
+a.close()
+print(open("hello.txt").read())
+a.close()
+#b=open("hello.txt","w")
+#print(b.read())
