@@ -62,7 +62,7 @@ t1.extend([12,14])     #extend() adds [12,14] as normal elements
 print('t1:',t1)
 t3=[20,40]
 t2.extend(t3)
-print('t2:',t2)
+print('t2:',t2 , "\n")
 
                                        # insert()
 #INSERTS ITEMS AT THE SPECIFIED POSITION.

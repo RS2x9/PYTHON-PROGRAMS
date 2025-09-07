@@ -29,14 +29,18 @@ print(List[::-1]) #LIST GETS REVERSED
 L=['one','two','three']
 L[0:2]=[0,1]
 print(L)
+print()
+
 L1=['one','two','three']
 L1[0:2]='a' #this removes elements of index 0,1 & a gest inserted there
 print(L1)
+print()
+
 L2=[1,2,3]
 L2[2:]='604'
 print(L2)
 #L2[2:]=100  this cant happnen.values assigned should be list ,string,tuple
-L2[2:]=[604]
+L2[2:]=[604,204]
 print(L2)
 L2[1:]=[33]
 print(L2)

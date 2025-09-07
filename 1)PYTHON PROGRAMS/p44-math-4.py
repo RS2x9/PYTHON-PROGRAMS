@@ -1,4 +1,4 @@
-#r=7.5 of sphere.calculate area and volume
+# r=7.5 of sphere. calculate area and volume
 import math
 r=7.5
 area=4*math.pi*math.pow(r,2)

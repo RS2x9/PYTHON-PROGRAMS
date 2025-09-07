@@ -2,10 +2,10 @@
 L=[10,20,30]
 n=eval(input('enter number or a list of numbers'))
 if type(n)==type(1):
-    L.append(n)
+    L.extend(n)
     print(L)
 elif type(n)==type([]):
-    L.append(n)
+    L.extend(n)
     print(L)
 else :
     print('enter only number or list of numbers')

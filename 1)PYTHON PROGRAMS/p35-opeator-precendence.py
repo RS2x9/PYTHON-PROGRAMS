@@ -8,12 +8,13 @@
 + -                    #arithmetic operator 
 < <= > >= <> != ==     #relatioanal operator
 is ,is not             #identity operator 
-not x                  #logical operator 
+not                    #logical operator 
 and                    #logical operator
 or                     #logical operator
 '''
-#** this has right to left associativity
-print(2**3**4) #same as 2**(3**4)
+
+# ** : this operator has right to left associativity
+print(2**3**4)              #same as 2**(3**4)
 print(7*8/5//2)
 print((((7*8)/5)//2))
 print(7*(8/(5//2)))

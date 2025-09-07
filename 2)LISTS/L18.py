@@ -21,3 +21,5 @@ if ch==3:
                   del L[di_start:di_end+1]
                   print('modified list',L)
     
+
+# this program is running well on programmiz 

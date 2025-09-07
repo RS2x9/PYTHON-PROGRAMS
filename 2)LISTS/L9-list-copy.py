@@ -1,6 +1,6 @@
 #TRUE COPY OF LIST
 a=[1,2,3]
-b=a #it dont make b as a duplicate list,python make label b to point where label a is pointing ie no true copy
+b=a  #it dont make b as a duplicate list,python make label b to point where label a is pointing ie no true copy
 print('a:',a)
 print('b',b)
 print('memory address of a:',id(a))
@@ -27,4 +27,4 @@ L_copy=L.copy()
 print('L id is:',id(L),',','L_copy id is :',id(L_copy))
 L[1]=['hi']
 L_copy[1]=['bye']
-print('L is:',L,',','L_copy is:',L_copy)
+print('L is:',L,"\n",'L_copy is:',L_copy)
