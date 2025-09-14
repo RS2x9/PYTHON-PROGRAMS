@@ -1,0 +1,4 @@
+This is Rishi Narayan 
+learning file handling 
+ Aim is to become Data Scientist
+This is the best role will fit me in
